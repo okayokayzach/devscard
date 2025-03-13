@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
+  image: import('@/assets/zach-rat.jpg'),
   fullName: 'Zachary Prins',
   role: 'Student',
   details: [
@@ -26,7 +26,7 @@ const mainSectionData = {
     { label: 'Website', value: 'zacharyprinsportfolio.vercel.app', url: '/', fullRow: true },
   ],
   description:
-    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
+    'Third-year Economics and Mathematics co-op student, minor in Computing Science, with a 4.30 GPA and consistent Deans List recognition. Excellent spoken communication and interpersonal skills from three years of customer service experience. Academic background includes statistics, probability, and applied AI/machine learning, and practical experience in object-oriented programming.',
   tags: [
     { name: 'Looking for Co-op oppourtonities' },
     { name: 'Currently in University' },
