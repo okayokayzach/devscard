@@ -11,21 +11,21 @@ const educationSectionData = {
   },
   diplomas: [
     {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2014.10'), new Date('2016.07')],
-      description: 'Master degree. Specialization in software development.',
+      title: 'Bachelor of Science',
+      institution: 'Thompson Rivers University',
+      image: import('@/assets/logos/tru-logo.png'),
+      dates: [new Date('2023.09'), new Date('2027.05')],
+      description: 'Major in Mathematics and Economics. Minor in Computing Science.',
       links: [website({ url: '#' })],
     },
-    {
-      title: 'Information Technology',
-      institution: 'Wrocław University of Science and Technology',
-      image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
-      dates: [new Date('2011.10'), new Date('2014.07')],
-      description: "Bachelor's degree. Specialization in application development.",
-      links: [website({ url: '#' })],
-    },
+    // {
+    //   title: 'Information Technology',
+    //   institution: 'Wrocław University of Science and Technology',
+    //   image: import('@/assets/logos/wroclaw-university-of-technology.jpg'),
+    //   dates: [new Date('2011.10'), new Date('2014.07')],
+    //   description: "Bachelor's degree. Specialization in application development.",
+    //   links: [website({ url: '#' })],
+    // },
   ],
 } as const satisfies ReadonlyDeep<EducationSection>;
 
