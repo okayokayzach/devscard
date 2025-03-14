@@ -5,10 +5,11 @@ import LinkButton from '@/web/components/link-button.astro';
 import Thumbnail from '@/web/components/thumbnail.astro';
 import Timestamp from '@/web/components/timestamp.astro';
 import Typography from '@/web/components/typography.astro';
+import TagsList from '@/web/components/tags-list.astro';
 
 export interface Props extends Diploma {}
 
-const { title, institution, dates, description, links, image } = Astro.props;
+const { title, major, institution, dates, keypoints, description, courses, links, image } = Astro.props;
 ---
 
 <div class="flex flex-col gap-3">
@@ -17,8 +18,13 @@ const { title, institution, dates, description, links, image } = Astro.props;
       <Thumbnail src={image} alt={`${institution} logo`} size="large" />
       <div class="flex flex-col">
         <Typography variant="item-title">{title}</Typography>
-        <Typography variant="item-subtitle-primary" class="mb-0.5">{institution}</Typography>
+        {major && <Typography variant="item-subtitle-primary">{major}</Typography>}
+        <Typography variant="item-subtitle-secondary" class="mb-0.5">{institution}</Typography>
         <Timestamp dates={dates} />
+
+        {
+          <TagsList {...keypoints} < div />
+        }
       </div>
     </div>
     {
@@ -32,4 +38,5 @@ const { title, institution, dates, description, links, image } = Astro.props;
     }
   </div>
   <Description content={description} />
+  <TagsList {...courses} < div />
 </div>

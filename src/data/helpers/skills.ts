@@ -17,6 +17,89 @@ skill({ name: '...' }) — returns skill object with a custom name.
 skill({ description: '...' }) — returns skill with a description displayed when user hovers over it.
 
 */
+export const deans = createSkillFactory({
+  name: "Dean's List",
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: 'Fall 2023, Winter 2024, Fall 2024.',
+});
+
+export const gpa = createSkillFactory({
+  name: '4.30 GPA',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: 'Sept 2023-Fall 2024',
+});
+
+export const stat = createSkillFactory({
+  name: 'Probability and Statistics',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: '(STAT 2000',
+});
+
+export const linearAlgebra = createSkillFactory({
+  name: 'Linear Algebra',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: 'MATH 2120.',
+});
+
+export const diffQ = createSkillFactory({
+  name: 'Differential Equations',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: 'Solving ordinary and partial differential equations (MATH 3160 & MATH 2240.)',
+});
+export const calc = createSkillFactory({
+  name: 'Calculus',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: 'Differential, integral, and multivariable calculus (MATH 2110 & MATH 1240 & MATH 1140)',
+});
+
+export const discrete = createSkillFactory({
+  name: 'Discrete Mathematics',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: '(MATH 1700)',
+});
+
+export const macroEcon = createSkillFactory({
+  name: 'Macro Economics',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: '(ECON 1950)',
+});
+
+export const microEcon = createSkillFactory({
+  name: 'Micro Economics',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: '(ECON 1900)',
+});
+
+export const AI = createSkillFactory({
+  name: 'Applied AI',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: 'Applied artificial intelligence (COMP 3710).',
+});
+
+export const dataStruct = createSkillFactory({
+  name: 'Data Structures & Algorithms',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: '(COMP 2230)',
+});
+
+export const obj = createSkillFactory({
+  name: 'Object Oriented Programming',
+  //icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  description: '(COMP 3140)',
+});
+
 export const SQL = createSkillFactory({
   name: 'SQL',
   icon: 'simple-icons:apollographql',

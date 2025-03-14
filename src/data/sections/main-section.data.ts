@@ -26,7 +26,7 @@ const mainSectionData = {
     { label: 'Website', value: 'zacharyprinsportfolio.vercel.app', url: '/', fullRow: true },
   ],
   description:
-    'Third-year Economics and Mathematics co-op student, minor in Computing Science, with a 4.30 GPA and consistent Deans List recognition. Excellent spoken communication and interpersonal skills from three years of customer service experience. Academic background includes statistics, probability, and applied AI/machine learning, and practical experience in object-oriented programming.',
+    'needs description and highlights. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   tags: [
     { name: 'Looking for Co-op oppourtonities' },
     { name: 'Currently in University' },

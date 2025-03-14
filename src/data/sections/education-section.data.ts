@@ -1,6 +1,20 @@
 import type { EducationSection } from '@/types/sections/education-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { website } from '../helpers/links';
+import {
+  linearAlgebra,
+  calc,
+  diffQ,
+  macroEcon,
+  gpa,
+  deans,
+  microEcon,
+  AI,
+  obj,
+  dataStruct,
+  discrete,
+  stat,
+} from '../helpers/skills';
 
 const educationSectionData = {
   config: {
@@ -12,14 +26,32 @@ const educationSectionData = {
   diplomas: [
     {
       title: 'Bachelor of Science',
+      major: 'Major in Mathematics and Economics, minor in Computing Science',
       institution: 'Thompson Rivers University',
       image: import('@/assets/logos/tru-logo.png'),
       dates: [new Date('2023.09'), new Date('2027.05')],
+      keypoints: {
+        title: '',
+        tags: [gpa(), deans()],
+      },
       description: `
-         Majoring in Mathematics and Economics. Minoring in Computing Science. Acheived a 4.30 GPA and consistent Dean's list recognition.
-        -Acquired analytical, problem-solving skills, and attention to detail from math curriculum.
-        -Developing a strong foundation in microeconomics, macroeconomics, and economic modeling through coursework.
+        Need to put a better description here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       `,
+      courses: {
+        title: 'Courses',
+        tags: [
+          diffQ(),
+          calc(),
+          linearAlgebra(),
+          discrete(),
+          stat(),
+          AI(),
+          obj(),
+          dataStruct(),
+          macroEcon(),
+          microEcon(),
+        ],
+      },
       links: [website({ url: 'https://www.tru.ca/' })],
     },
   ],

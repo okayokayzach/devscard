@@ -32,7 +32,7 @@ const experienceSectionData = {
         - Took initiative in expanding knowledge of plant care and landscaping materials to provide better support to customers.
       `,
       tagsList: {
-        title: 'Skills',
+        title: 'Courses',
         tags: [react(), nextJs(), typescript(), nx(), firebase()],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],

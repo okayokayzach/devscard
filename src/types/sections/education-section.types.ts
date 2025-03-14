@@ -1,10 +1,12 @@
-import type { DateRange, LinkButton, Photo, Section } from '../shared';
+import type { DateRange, LinkButton, Photo, Section, TagsList } from '../shared';
 
 export interface Diploma {
   /**
    * Name of the certificate or the degree you got.
    */
   title: string;
+
+  major: string;
 
   /**
    * Name of the institution that issued the certificate or degree.
@@ -25,10 +27,14 @@ export interface Diploma {
    */
   dates: DateRange;
 
+  keypoints: TagsList;
+
   /**
    * A short overview of your studies. You can use markdown syntax.
    */
   description: string;
+
+  courses: TagsList;
 
   /**
    * [WEB] Links related to your studies (e.g. course/university website, link to realized project).
