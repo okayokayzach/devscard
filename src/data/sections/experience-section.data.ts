@@ -24,56 +24,46 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Retail Team Member',
+      company: 'Lyons Landscaping & Garden Centre',
+      image: import('@/assets/logos/lyons-logo.png'),
+      dates: [new Date('2024-05'), new Date('2024-09')],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - Took initiative in expanding knowledge of plant care and landscaping materials to provide better support to customers.
       `,
       tagsList: {
-        title: 'Technologies',
+        title: 'Skills',
         tags: [react(), nextJs(), typescript(), nx(), firebase()],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Soft Goods Manager',
+      company: 'Ski Cellar Snowboard',
+      image: import('@/assets/logos/ski-cellar-logo.jpg'),
+      dates: [new Date('2022-08'), new Date('2023-04')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        -Led a team to exceed sales targets, showcasing leadership and teamwork.
+        -Demonstrated strong written professional communication skills through emailing within and outside of the company.
+        -Oversaw operational functions, including financial security (cash drops, balancing), administrative tasks, and resolving escalated customer issues, in addition to sales responsibilities, highlighting multitasking abilities.
       `,
       tagsList: {
-        title: 'Technologies',
+        title: 'Skills',
         tags: [react(), reactQuery(), chakraUi(), eslint()],
       },
       links: [website({ url: '#' }), instagram({ url: '#' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
+      role: 'Sales Associate',
+      company: 'Ski Cellar Snowboard',
+      image: import('@/assets/logos/ski-cellar-logo.jpg'),
       dates: [new Date('2016-09'), new Date('2019-04')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        -Consistently performed above sales goals in a fast-paced, high-revenue environment.
+        - Top salesperson in the company of 50+ employees two consecutive holiday seasons.
       `,
       tagsList: {
-        title: 'Technologies',
+        title: 'Skills',
         tags: [vue(), tailwindCss(), pnpm()],
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],

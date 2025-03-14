@@ -28,7 +28,7 @@ const skillsSectionData = {
   },
   skillSets: [
     {
-      title: 'I already know',
+      title: 'Soft Skills',
       skills: [
         react({
           level: 5,

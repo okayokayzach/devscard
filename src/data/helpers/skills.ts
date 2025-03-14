@@ -17,6 +17,12 @@ skill({ name: '...' }) — returns skill object with a custom name.
 skill({ description: '...' }) — returns skill with a description displayed when user hovers over it.
 
 */
+export const SQL = createSkillFactory({
+  name: 'SQL',
+  icon: 'simple-icons:apollographql',
+  iconColor: '#311C87',
+  url: 'https://www.apollographql.com/',
+});
 
 export const apolloGraphql = createSkillFactory({
   name: 'Apollo GraphQL',

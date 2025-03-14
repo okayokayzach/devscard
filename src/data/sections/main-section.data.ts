@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/zach-rat.jpg'),
+  image: import('@/assets/zach.jpg'),
   fullName: 'Zachary Prins',
   role: 'Student',
   details: [
